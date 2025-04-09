@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Курочка и дорога</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="game-container">
+        <div id="road"></div>
+        <div id="chicken" class="chicken"></div>
+        <div id="controls">
+            <button id="start-btn">Начать игру (ставка 10$)</button>
+            <button id="step-btn" disabled>Сделать шаг</button>
+            <button id="cashout-btn" disabled>Забрать выигрыш</button>
+        </div>
+        <div id="win-modal" class="modal hidden">
+            <p>Выиграно 100 фриспинов!</p>
+            <a href="https://ваш_сайт/выигрыш" target="_blank">Забери свой выигрыш тут</a>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
